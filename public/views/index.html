@@ -9,14 +9,16 @@
   </head>
   <body>
     <h1>Calculator</h1>
-<input id = "firstNum" data-numbers= "input1"type="number"  value="" placeholder="enter 1st number here">
+    <form>
+<input id = "firstNum" type="number" placeholder="enter 1st number here">
 <div class = "buttons">
-<button id = "add" type="" name="button">+</button>
-<button id = "sub" type="" name="button">-</button>
-<button id = "mult" type="" name="button">*</button>
-<button id = "divide" type="" name="button">/</button>
+<button id = "add" type="submit" data-action= "/add" value="+">+</button>
+<button id = "sub" type="submit" data-action= "/subtract" value="-">-</button>
+<button id = "mult" type="submit" data-action= "/multiply" value="*">*</button>
+<button id = "divide" type="submit" data-action= "/divide" value="/">/</button>
 </div>
-<input id = "secondNum" data-numbers= "input2" type="number" name="" value="" placeholder="enter 2nd number here">
+<input id = "secondNum" type="number" placeholder="enter 2nd number here">
+</form>
 <div class = "container"></div>
 <div class = "clearButton">
 <button = id= "Clear">Clear</div>
