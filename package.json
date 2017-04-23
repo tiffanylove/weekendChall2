@@ -1,0 +1,24 @@
+{
+  "name": "tiffanylove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffanylove/prime-solo-sql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiffanylove/prime-solo-sql/issues"
+  },
+  "homepage": "https://github.com/tiffanylove/prime-solo-sql#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1"
+  }
+}
