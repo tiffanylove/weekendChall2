@@ -38,6 +38,8 @@ function calculateAll(a, b, action){
 }
 function clearCalculator() {
   $('.resContainer').empty();
+  $('#firstNum').val('');
+  $('#secondNum').val('');
 
   console.log('calculator cleared');
 }

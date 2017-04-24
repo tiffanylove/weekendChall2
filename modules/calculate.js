@@ -48,6 +48,7 @@ router.get('/', function(req, res) {
 });
 
 
+//This could be a switch statement
 
  function add(firstNum, secondNum){
    return firstNum + secondNum;
